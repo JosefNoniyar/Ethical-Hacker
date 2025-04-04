@@ -33,6 +33,13 @@ header p {
     color: #94a3b8;
 }
 
+.selection-box {
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(59, 130, 246, 0.1);
+}
+
 main label, main select, main button {
     display: block;
     width: 100%;
@@ -90,7 +97,7 @@ footer h3 {
     transition: text-decoration 0.3s ease;
 }
 
-contact a:hover {
+.contact a:hover {
     text-decoration: underline;
 }
 
